@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>spr_warpR1</maskName>
   <events>
     <event eventtype="3" enumb="0">
@@ -31,7 +31,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player">
+    <event eventtype="4" ename="objPlayer">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_player) instance_destroy();
+            <string>with (objPlayer) instance_destroy();
 
 instance_create(0,0,obj_startGame)
 </string>

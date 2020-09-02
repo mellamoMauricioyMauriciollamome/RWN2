@@ -26,10 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
-sprite_index = obj_player.sprite_index;
-image_index = obj_player.image_index;
+sprite_index = objPlayer.sprite_index;
+image_index = objPlayer.image_index;
 image_alpha = 0.6;
-image_xscale = obj_player.xScale;
+image_xscale = objPlayer.xScale;
 image_yscale = global.grav;
 </string>
           </argument>
